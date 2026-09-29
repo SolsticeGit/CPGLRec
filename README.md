@@ -8,6 +8,10 @@ To address these issues, we propose CPGLRec, a cross-stage popularity guidance f
 (3) In the inference stage, the ranking of LLM-generated items is adjusted through popularity-calibrated reranking.
 Experiments on three real-world datasets show that CPGLRec substantially improves recommendation fairness and diversity while maintaining competitive accuracy.
 
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/0ad8035c-6f8b-4915-9c8d-d3d8a0b3b9fc" width="95%">
+</p>
+
 ## How to Train Using CPGLRec Framework
 ```bash
 python mydata/MovieLens1M/process.py
